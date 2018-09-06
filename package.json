@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://mickozak.github.io/Portfolio-Website",
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
