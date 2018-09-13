@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css'
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 
 import Main from './components/main'
@@ -9,7 +10,7 @@ class App extends Component {
     return (
           <div className="demo-big-content">
               <Layout>
-                  <Header title="Michał Kozak - Junior Frontend Developer" scroll>
+                  <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Michał Kozak - Junior Frontend Developer</Link>} scroll>
                       <Navigation>
                           <Link to="/resume">Resume</Link>
                           <Link to="/aboutme">About Me</Link>
