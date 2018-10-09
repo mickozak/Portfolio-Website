@@ -27,7 +27,7 @@ export default class extends Component {
         <BrowserRouter>
             <Layout pages={pages}>
                 <Switch>
-                    <Route exact path="/" render={() => <Landingpage/>} />
+                    <Route exact path="/" component={Landingpage} />
                     <Route path="/resume" render={
                         props => <Resume {...props} pages={Resume} />
                     } />
@@ -37,6 +37,7 @@ export default class extends Component {
                 </Switch>
             </Layout>
         </BrowserRouter>
-        </Grid>)
+        </Grid>
+        )
     }
 }
