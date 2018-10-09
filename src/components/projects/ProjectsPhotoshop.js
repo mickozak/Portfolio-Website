@@ -41,7 +41,7 @@ class ProjectsPhotoshop extends React.Component{
                         projectName={"Poster"}
                         projectDescription={"Poster made using Photoshop. File in .jpg format. Poster made for the needs of didactic classes for students of the \"Media Production\" branch."}
                         github={"https://github.com/mickozak/Projects-Photoshop/tree/master/posters/one"}
-                        livedemo={"https://github.com/mickozak/Projects-Photoshop/tree/master/posters/one"}
+                        livedemo={"https://github.com/mickozak/Projects-Photoshop/blob/master/posters/one/project.jpg"}
                     />
                 </Grid>
             </Grid>

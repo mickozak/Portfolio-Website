@@ -10,20 +10,20 @@ class ProjectsBasic extends React.Component{
             <Grid container spacing={5}>
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
-                        img={"https://i.ytimg.com/vi/mztpp0YzvF0/hqdefault.jpg"}
-                        projectName={"Website Active Student"}
-                        projectDescription={" Website prepared for the student organization. I used HTML, CSS, JS. "}
+                        img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
+                        projectName={"Active Student"}
+                        projectDescription={" Website prepared for the student organization."}
                         github={"https://github.com/mickozak/Website-ActiveStudent"}
                         livedemo={"https://mickozak.github.io/Website-ActiveStudent/"}
                     />
                 </Grid>
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
-                        img={"https://i.ytimg.com/vi/mztpp0YzvF0/hqdefault.jpg"}
-                        projectName={"CSS effect"}
-                        projectDescription={"The repository contains various mini CSS projects. Made with different properties. "}
+                        img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
+                        projectName={"CSS Effect"}
+                        projectDescription={"The repository contains various mini CSS projects."}
                         github={"https://github.com/mickozak/CSS"}
-                        livedemo={"#"}
+                        livedemo={"https://mickozak.github.io/CSS/"}
                     />
                 </Grid>
             </Grid>

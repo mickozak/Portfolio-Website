@@ -14,15 +14,6 @@ class ProjectsReact extends React.Component{
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"Game Mole"}
                         projectDescription={"In progrss..."}
-                        github={"https://github.com/mickozak/Game-Mole"}
-                        livedemo={"https://mickozak.github.io/Game-Mole/"}
-                    />
-                </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
-                    <Card
-                        img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
-                        projectName={"Game Memory"}
-                        projectDescription={"In progress..."}
                         github={"#"}
                         livedemo={"#"}
                     />
