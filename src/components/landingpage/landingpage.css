@@ -1,13 +1,20 @@
+.landingpage{
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+
 .banner-text{
     background-color: black;
     opacity: .8;
     width: 75%;
     margin: auto;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .banner-text h1{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     color: white;
 }
@@ -36,9 +43,4 @@
     color: white;
     font-size: 5em;
     padding: 8px;
-}
-
-.test{
-    display: flex;
-    flex-wrap: wrap;
 }

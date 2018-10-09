@@ -1,3 +1,0 @@
-- style w osobnych plikach
-
-- w pliku projekt uzyto tabel, cards, zmienic activtab

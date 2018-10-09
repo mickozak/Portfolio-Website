@@ -1,8 +1,7 @@
 import React from 'react';
-
-import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
+import classNames from 'classnames';
 
 const styles = {
     row: {

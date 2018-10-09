@@ -1,0 +1,21 @@
+.resume{
+    padding: 1em;
+}
+
+.resume-right-col{
+    background: #27221F;
+    color: white;
+    border-radius: 10px;
+}
+
+.resume-right-col-text{
+    padding-left: 0.5em;
+}
+
+.cv-links{
+    display: flex;
+}
+
+.cv-links i{
+    font-size: 2em;
+}

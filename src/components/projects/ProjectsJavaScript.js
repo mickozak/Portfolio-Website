@@ -7,12 +7,13 @@ import Card from './Card'
 class ProjectsReact extends React.Component{
     render(){
         return(
+
             <Grid container spacing={5}>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item container xs justify="center" style={{padding: '1em'}}>
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"Game Mole"}
-                        projectDescription={"A simple game, our goal is to kill the mole."}
+                        projectDescription={"In progrss..."}
                         github={"https://github.com/mickozak/Game-Mole"}
                         livedemo={"https://mickozak.github.io/Game-Mole/"}
                     />
@@ -45,6 +46,7 @@ class ProjectsReact extends React.Component{
                     />
                 </Grid>
             </Grid>
+
         )
     }
 }
