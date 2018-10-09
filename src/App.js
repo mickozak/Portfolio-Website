@@ -12,7 +12,7 @@ import Projects from './components/projects/Projects'
 
 export default class extends Component {
     state = {
-        pages: []
+        pages: ['/home']
     }
 
     async componentDidMount() {
@@ -27,7 +27,7 @@ export default class extends Component {
         <BrowserRouter>
             <Layout pages={pages}>
                 <Switch>
-                    <Route exact path="/" component={Landingpage} />
+                    <Route exact path="/Portfolio-Website" render={() => <Landingpage/>} />
                     <Route path="/resume" render={
                         props => <Resume {...props} pages={Resume} />
                     } />
