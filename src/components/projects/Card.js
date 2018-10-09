@@ -45,10 +45,10 @@ function ImgMediaCard(props) {
 
             <CardActions style={{alignSelf:'flex-end'}}>
 
-                <Button size="small" color="primary" href={props.github}>
+                <Button size="small" color="primary" href={props.github} target="_blank">
                     GITHUB
                 </Button>
-                <Button size="small" color="primary" href={props.livedemo}>
+                <Button size="small" color="primary" href={props.livedemo} target="_blank">
                     LIVE DEMO
                 </Button>
 

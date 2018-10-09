@@ -15,11 +15,11 @@ class ResumeLeft extends React.Component{
                 <h5>E-mail:</h5>
                 <p><a href="mailto:kozak_m@outlook.com">kozak_m@outlook.com</a></p>
                 <h5>LinkedIn:</h5>
-                <p><a href="https://www.linkedin.com/in/mickozak">https://www.linkedin.com/in/mickozak</a></p>
+                <p><a href="https://www.linkedin.com/in/mickozak" target="_blank">https://www.linkedin.com/in/mickozak</a></p>
                 <h5>GitHub:</h5>
-                <p><a href="https://www.github.com/mickozak">https://www.github.com/mickozak</a></p>
+                <p><a href="https://www.github.com/mickozak" target="_blank">https://www.github.com/mickozak</a></p>
                 <h5>Homepage:</h5>
-                <p><a href="https://mickozak.github.io/Portfolio-Website/">https://mickozak.github.io/Portfolio-Website/</a></p>
+                <p><a href="https://mickozak.github.io/Portfolio-Website/" target="_blank">https://mickozak.github.io/Portfolio-Website/</a></p>
                 <hr style={{borderTop: '2px solid #8230a3', width: '60%'}}/>
                 <h5>Main skills:</h5>
                 <p>HTML</p>
