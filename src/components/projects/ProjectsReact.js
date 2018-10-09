@@ -7,7 +7,7 @@ class ProjectsReact extends React.Component{
     render(){
         return(
             <Grid container spacing={5}>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                         projectName={"React Exercise"}
@@ -16,7 +16,7 @@ class ProjectsReact extends React.Component{
                         livedemo={"https://mickozak.github.io/React/"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                 <Card
                     img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                     projectName={"Contacts List"}
@@ -25,7 +25,7 @@ class ProjectsReact extends React.Component{
                     livedemo={"https://mickozak.github.io/React-ContactsList/"}
                 />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                         projectName={"Homepage"}

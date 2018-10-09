@@ -9,7 +9,7 @@ class ProjectsReact extends React.Component{
         return(
 
             <Grid container spacing={5}>
-                <Grid item container xs justify="center" style={{padding: '1em'}}>
+                <Grid item container xs justify="center" style={{padding: '0.5em'}}>
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"Game Mole"}
@@ -18,7 +18,7 @@ class ProjectsReact extends React.Component{
                         livedemo={"#"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"Game Cars"}
@@ -27,7 +27,7 @@ class ProjectsReact extends React.Component{
                         livedemo={"#"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"ToDo List"}

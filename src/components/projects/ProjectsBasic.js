@@ -8,7 +8,7 @@ class ProjectsBasic extends React.Component{
     render(){
         return(
             <Grid container spacing={5}>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
                         projectName={"Active Student"}
@@ -17,7 +17,7 @@ class ProjectsBasic extends React.Component{
                         livedemo={"https://mickozak.github.io/Website-ActiveStudent/"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
                         projectName={"CSS Effect"}

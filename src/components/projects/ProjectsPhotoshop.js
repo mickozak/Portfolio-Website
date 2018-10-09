@@ -8,7 +8,7 @@ class ProjectsPhotoshop extends React.Component{
     render(){
         return(
             <Grid container spacing={5}>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"}
                         projectName={"Website"}
@@ -17,7 +17,7 @@ class ProjectsPhotoshop extends React.Component{
                         livedemo={"https://github.com/mickozak/Projects-Photoshop/blob/master/website/first/first.jpg"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"}
                         projectName={"Website"}
@@ -26,7 +26,7 @@ class ProjectsPhotoshop extends React.Component{
                         livedemo={"https://github.com/mickozak/Projects-Photoshop/blob/master/website/second/second.jpg"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"}
                         projectName={"Logo"}
@@ -35,7 +35,7 @@ class ProjectsPhotoshop extends React.Component{
                         livedemo={"https://github.com/mickozak/Projects-Photoshop/blob/master/logo/first/logo_live_city.jpg"}
                     />
                 </Grid>
-                <Grid item xs container justify="center" style={{padding:'1em'}}>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"}
                         projectName={"Poster"}
