@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Switch, Route } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
 
 import './App.css'
@@ -24,10 +24,10 @@ export default class extends Component {
         const {pages} = this.state
 
         return(<Grid>
-        <BrowserRouter>
+        <HashRouter>
             <Layout pages={pages}>
                 <Switch>
-                    <Route exact path="/Portfolio-Website" render={() => <Landingpage/>} />
+                    <Route exact path="/" render={() => <Landingpage/>} />
                     <Route path="/resume" render={
                         props => <Resume {...props} pages={Resume} />
                     } />
@@ -36,7 +36,7 @@ export default class extends Component {
                     } />
                 </Switch>
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
         </Grid>
         )
     }

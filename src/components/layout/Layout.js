@@ -62,7 +62,7 @@ class Layout extends Component {
                     <div className={classes.toolbar} />
                 </Hidden>
                 <MenuList>
-                    <MenuItem component={Link} to="/Portfolio-Website" selected={'/Portfolio-Website' === pathname}>
+                    <MenuItem component={Link} to="/" selected={'/Portfolio-Website' === pathname}>
                         Home
                     </MenuItem>
                     <MenuItem component={Link} to="/resume" selected={'/Portfolio-Website/resume' === pathname}>
