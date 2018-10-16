@@ -31,9 +31,9 @@ class ProjectsReact extends React.Component{
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"ToDo List"}
-                        projectDescription={"In progress..."}
-                        github={"#"}
-                        livedemo={"#"}
+                        projectDescription={"A simple application that allows you to add and delete for tasks."}
+                        github={"https://github.com/mickozak/Application-Todo"}
+                        livedemo={"https://mickozak.github.io/Application-Todo/"}
                     />
                 </Grid>
             </Grid>
