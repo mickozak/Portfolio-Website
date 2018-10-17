@@ -14,7 +14,7 @@ class Landing extends React.Component{
                             <div className="banner-text">
                                 <h1>Junior Frontend Developer</h1>
                                 <hr/>
-                                <p>HTML | CSS | JavaScript | React | Material-UI | Ajax | Firebase | LESS | Bootstrap | jQuery | Git</p>
+                                <p>HTML | CSS | JavaScript | React | Material-UI | Ajax | Firebase | LESS | Bootstrap | Materialize - CSS | jQuery | Git</p>
                                 <div className="social-links">
                                     <a href="https://www.linkedin.com/in/mickozak" rel="noopener noreferrer" target="_blank">
                                         <i className="fab fa-linkedin" aria-hidden="true"/>
