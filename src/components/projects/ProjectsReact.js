@@ -43,6 +43,24 @@ class ProjectsReact extends React.Component{
                         livedemo={"https://mickozak.github.io/React-Firebase-App/"}
                     />
                 </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"https://cdn-images-1.medium.com/max/1600/1*bs6W6c6yYS36PcD9joLVtw.png"}
+                        projectName={"Hair Salon"}
+                        projectDescription={"In progress..."}
+                        github={"https://github.com/mickozak/React-Hair-Salon"}
+                        livedemo={"https://mickozak.github.io/React-Hair-Salon/"}
+                    />
+                </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"https://cdn-images-1.medium.com/max/1600/1*bs6W6c6yYS36PcD9joLVtw.png"}
+                        projectName={"Run Day"}
+                        projectDescription={"In progress..."}
+                        github={"https://github.com/mickozak/React-RunDay/"}
+                        livedemo={"https://mickozak.github.io/React-RunDay/"}
+                    />
+                </Grid>
             </Grid>
         )
     }

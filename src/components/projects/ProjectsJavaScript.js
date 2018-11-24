@@ -30,6 +30,15 @@ class ProjectsReact extends React.Component{
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
+                        projectName={"Game Memory"}
+                        projectDescription={"In progress..."}
+                        github={"https://github.com/mickozak/Game-Memory"}
+                        livedemo={"https://mickozak.github.io/Game-Memory/"}
+                    />
+                </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"ToDo List"}
                         projectDescription={"A simple application that allows you to add and delete for tasks."}
                         github={"https://github.com/mickozak/Application-Todo"}
