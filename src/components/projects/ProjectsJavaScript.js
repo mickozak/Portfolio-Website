@@ -31,7 +31,7 @@ class ProjectsReact extends React.Component{
                     <Card
                         img={"https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png"}
                         projectName={"Game Memory"}
-                        projectDescription={"In progress..."}
+                        projectDescription={"A game whose goal is to discover the same cards on the board."}
                         github={"https://github.com/mickozak/Game-Memory"}
                         livedemo={"https://mickozak.github.io/Game-Memory/"}
                     />

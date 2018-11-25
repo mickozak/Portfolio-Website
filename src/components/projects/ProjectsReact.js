@@ -45,7 +45,7 @@ class ProjectsReact extends React.Component{
                 </Grid>
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
-                        img={"https://cdn-images-1.medium.com/max/1600/1*bs6W6c6yYS36PcD9joLVtw.png"}
+                        img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                         projectName={"Hair Salon"}
                         projectDescription={"In progress..."}
                         github={"https://github.com/mickozak/React-Hair-Salon"}
@@ -54,7 +54,7 @@ class ProjectsReact extends React.Component{
                 </Grid>
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
-                        img={"https://cdn-images-1.medium.com/max/1600/1*bs6W6c6yYS36PcD9joLVtw.png"}
+                        img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                         projectName={"Run Day"}
                         projectDescription={"In progress..."}
                         github={"https://github.com/mickozak/React-RunDay/"}
