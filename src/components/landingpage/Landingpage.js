@@ -3,6 +3,11 @@ import Grid from '@material-ui/core/Grid'
 
 import  Avatar from './Avatar'
 
+const styles = {
+    margin: '0',
+    padding: '0'
+}
+
 class Landing extends React.Component{
     render () {
         return(
@@ -12,9 +17,13 @@ class Landing extends React.Component{
                         <div className="landing-grid">
                             <Avatar/>
                             <div className="banner-text">
-                                <h1>Junior Frontend Developer</h1>
+                                <h1>Frontend Developer</h1>
                                 <hr/>
-                                <p>HTML | CSS | JavaScript | React | Material-UI | Ajax | Firebase | Sass | Bootstrap | RWD | Materialize - CSS | jQuery | Git | JIRA | WebStorm | Photoshop </p>
+                                <p style={styles}>HTML | CSS | JavaScript | React | Material-UI | Ajax | Firebase | Sass | Bootstrap | RWD | Materialize - CSS | Semantic - UI | Pure - CSS | jQuery | Git | JIRA | WebStorm | Photoshop </p>
+                                <br></br>
+                                <p style={styles}>The page you are on is made in the JavaScript React library.</p>
+                                <br></br>
+                                <p style={styles}><b>You can find a new version of my portfolio at: <a href="https://mickozak.github.io/Portfolio/">https://mickozak.github.io/Portfolio/</a></b></p>
                                 <div className="social-links">
                                     <a href="https://www.linkedin.com/in/mickozak" rel="noopener noreferrer" target="_blank">
                                         <i className="fab fa-linkedin" aria-hidden="true"/>

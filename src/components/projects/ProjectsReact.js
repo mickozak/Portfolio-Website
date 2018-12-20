@@ -47,18 +47,9 @@ class ProjectsReact extends React.Component{
                     <Card
                         img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
                         projectName={"Hair Salon"}
-                        projectDescription={"In progress..."}
+                        projectDescription={"An application in which a logged-in user can add training. "}
                         github={"https://github.com/mickozak/React-Hair-Salon"}
                         livedemo={"https://mickozak.github.io/React-Hair-Salon/"}
-                    />
-                </Grid>
-                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
-                    <Card
-                        img={"https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png"}
-                        projectName={"Run Day"}
-                        projectDescription={"In progress..."}
-                        github={"https://github.com/mickozak/React-RunDay/"}
-                        livedemo={"https://mickozak.github.io/React-RunDay/"}
                     />
                 </Grid>
             </Grid>

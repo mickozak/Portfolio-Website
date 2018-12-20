@@ -38,12 +38,40 @@ class ProjectsBasic extends React.Component{
                 <Grid item xs container justify="center" style={{padding:'0.5em'}}>
                     <Card
                         img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
+                        projectName={"BlueDiamondDev."}
+                        projectDescription={"Website of the programming company."}
+                        github={"https://github.com/mickozak/Website-Company"}
+                        livedemo={"https://mickozak.github.io/Website-Company/"}
+                    />
+                </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
+                        projectName={"Sizeer Web"}
+                        projectDescription={"Design of the Sizeer website. Used: HTML, CSS, JS."}
+                        github={"https://github.com/mickozak/Website-Sizeer"}
+                        livedemo={"https://mickozak.github.io/Website-Sizeer/"}
+                    />
+                </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
+                        projectName={"Portfolio"}
+                        projectDescription={"Portfolio made in html, css and javascript."}
+                        github={"https://github.com/mickozak/Portfolio"}
+                        livedemo={"https://mickozak.github.io/Portfolio/"}
+                    />
+                </Grid>
+                <Grid item xs container justify="center" style={{padding:'0.5em'}}>
+                    <Card
+                        img={"http://s6.ifotos.pl/img/htmlcssjp_qeqwqsr.jpg"}
                         projectName={"CSS Effect"}
                         projectDescription={"The repository contains various mini projects."}
                         github={"https://github.com/mickozak/CSS"}
                         livedemo={"https://mickozak.github.io/CSS/"}
                     />
                 </Grid>
+                
             </Grid>
         )
     }

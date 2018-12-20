@@ -6,7 +6,7 @@ class ResumeLeft extends React.Component{
         return(
             <div style={{width: '100%',margin: 'auto'}}>
                 <h2>Michał Kozak</h2>
-                <h4 style={{color: 'grey'}}>Junior Frontend Developer</h4>
+                <h4 style={{color: 'grey'}}>Front-end Developer</h4>
                 <hr style={{borderTop: '2px solid #8230a3', width: '60%'}}/>
                 <p>I would like to develop my skills and gain experience in the field of JavaScript as well as React, React Native and Vue libraries.</p>
                 <hr style={{borderTop: '2px solid #8230a3', width: '60%'}}/>
@@ -19,7 +19,7 @@ class ResumeLeft extends React.Component{
                 <h5>GitHub:</h5>
                 <p><a href="https://www.github.com/mickozak" target="_blank">https://www.github.com/mickozak</a></p>
                 <h5>Homepage:</h5>
-                <p><a href="https://mickozak.github.io/Portfolio-Website/" target="_blank">https://mickozak.github.io/Portfolio-Website/</a></p>
+                <p><a href="https://mickozak.github.io/Portfolio/" target="_blank">https://mickozak.github.io/Portfolio/</a></p>
                 <hr style={{borderTop: '2px solid #8230a3', width: '60%'}}/>
                 <h5>Main skills:</h5>
                 <p>HTML</p>

@@ -90,7 +90,7 @@ class Layout extends Component {
                             <Menu />
                         </IconButton>
                         <Typography variant="title" color="inherit" noWrap>
-                            Michał Kozak - Junior Frontend Developer
+                            Michał Kozak - Frontend Developer
                         </Typography>
                     </Toolbar>
                 </AppBar>
